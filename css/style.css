@@ -204,55 +204,42 @@ nav ul li a {
   margin-bottom: 10px;
 }
 
-/* Services Section */
-#services {
-  background-color: var(--secondaryBackgroundColor);
-  padding: var(--sectionPadding);
-}
+/* About Me Section */
 
-.services .pre-title {
-  margin: 0 auto;
-}
-
-.services-title {
+.section__header {
+  font-size: 2.5rem;
+  font-weight: 600;
   text-align: center;
 }
 
-.service {
-  padding: 3rem 2rem;
-  text-align: center;
-  background: var(--primaryBackgroundColor);
-  border-radius: var(--itemBorderRadius);
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #bdbdbd;
+  padding: 100px;
 }
 
-.service h4 {
-  margin: 1.5rem 0;
-  font-weight: 500;
-  font-size: 1.05rem;
+.about__image img {
+  max-width: 450px;
+  margin: auto;
 }
 
-.service-icon {
-  background: var(--thirdBackgroundColor);
-  width: fit-content;
-  margin: 0 auto;
-  padding: 1rem 1.3rem;
-  border-radius: 0.5rem;
+.about__content .section__header {
+  margin-bottom: 2rem;
+  text-align: left;
 }
 
-.service-icon svg {
-  fill: var(--primaryIconColor);
-}
-
-.service-icon {
-  background: var(--thirdBackgroundColor);
-  width: fit-content;
-  margin: 0 auto;
-  padding: 1rem 1.3rem;
-  border-radius: 0.5rem;
-}
-
-.service-icon svg {
-  fill: var(--primaryIconColor);
+.about__content h4 {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d9d9d9;
+  background-color: #7d7d7d;
+  border-left: 2px solid black;
+  border-radius: 5px;
 }
 
 /* Portfolios */
@@ -606,5 +593,45 @@ footer {
 
   .pre-title {
     font-size: 0.7rem;
+  }
+  
+  
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #bdbdbd;
+  }
+  
+  .about__image img {
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  .about__content .section__header {
+    margin-top: -2rem;
+    margin-left: -30px;
+    margin-bottom: 2rem;
+    margin-left: -30px;
+    text-align: left;
+  }
+
+  
+  .about__content h4 {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-left: -30px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #d9d9d9;
+    background-color: #7d7d7d;
+    border-left: 2px solid black;
+    border-radius: 5px;
+    width: 230px;
+  }
+
+  .skills-right p {
+    width: 330px;
   }
 }

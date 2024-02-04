@@ -6,18 +6,20 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Rahulia Kristanti - Web Developer</title>
   </head>
+
   <body>
+
     <!-- Header -->
     <header>
       <div class="main-container">
         <div class="nav">
           <div class="logo">
-            <a href="/">Portfolio</a>
+            <a href="#">Portfolio</a>
           </div>
 
           <nav>
             <ul>
-              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Me</a></li>
               <li><a href="#portfolios">Portfolio</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -55,35 +57,24 @@
     </header>
     <!-- End Header -->
 
-    <!-- Services -->
-    <section id="services">
-      <div class="services main-container">
-        <h3 class="pre-title">Services</h3>
-        <h1 class="section-title services-title">Specialized In</h1>
+    <!-- About Me -->
 
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-              >
-                <path
-                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"
-                />
-              </svg>
-            </div>
-            <h4>Web Development</h4>
-            <p>
-              Create websites becomes beautiful and user-friendly.
-            </p>
-          </div>
-        </div>
+    <section class="about__container" id="about">
+      <div class="about__image">
+        <img src="assets/rahulia_about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hello, Everyone! I'm Rahulia</h2>
+        <h4>
+          I have a deep interest in web development,
+          particularly focusing on frontend development.
+          I enjoy exploring and creating engaging user experiences
+          through responsive and interactive interface designs.
+        </h4>
       </div>
     </section>
-    <!-- End Services -->
+
+    <!-- End About Me -->
 
     <!-- Portfolios -->
     <section id="portfolios">
@@ -103,27 +94,37 @@
             <div class="portfolio-info">
               <div class="portfolio-title">
                 <h4>Roomify (Hotel Booking Website)</h4>
-                <a href="https://rahuliakristanti.github.io/roomify-landing-page/" class="portfolio-link">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
-                    />
-                  </svg>
-                </a>
               </div>
               <div class="portfolio-tags">
-                <div>HTML</div>
-                <div>CSS</div>
+                <div><a href="https://github.com/rahuliakristanti/rahuliakristanti.github.io">Github Code</a></div>
+                <div><a href="https://rahuliakristanti.github.io/roomify-landing-page/">Link Website</a></div>
               </div>
               <p>
                 MVP Landing Page Roomify dibuat untuk memberikan gambaran
                 bahwa Roomify merupakan website layanan booking hotal.
                 Landing page ini dirancang semenarik mungkin dan user-friendly.
+              </p>
+            </div>
+
+            <div class="portfolio-cover">
+              <img
+                src="assets/portfolio-2.png"
+                alt="Portfolio 1"
+              />
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-title">
+                <h4>GroceLink (E-Groceries Website)</h4>
+                </a>
+              </div>
+              <div class="portfolio-tags">
+                <div><a href="https://github.com/rahuliakristanti/tugas-revou-software_developer-rahulia">Github Code</a></div>
+                <div><a href="https://rahuliakristanti.github.io/tugas-revou-software_developer-rahulia/">Link Website</a></div>
+              </div>
+              <p>
+                MVP Landing Page GroceLink dibuat untuk memberikan gambaran
+                bahwa GroceLink merupakan website e-groceries.
+                Landing page ini dirancang menggunakan HTML, CSS, dan JavaScript.
               </p>
             </div>
           </div>
@@ -282,7 +283,7 @@
           </svg>
         </a>
       </div>
-      <p>&#169; 2023 - Made by Night Coder</p>
+      <p>&#169; 2024 - Rahulia Kristanti</p>
     </footer>
     <!-- End Footer -->
 
